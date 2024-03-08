@@ -1,0 +1,1 @@
+alert('Boas vindas ao magnífico jogo de adivinhações de números. :)');
