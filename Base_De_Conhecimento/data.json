@@ -1,0 +1,32 @@
+[
+{
+    "nome":"JavaScript",
+    "dataDeLançamento": 1995,
+    "criador": "Bredan Eich",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+},
+{
+    "nome":"Python",
+    "dataDeLançamento": 1991,
+    "criador": "Guido van Rossum",
+    "link": "https://docs.python.org/pt-br/3.14/"
+},
+{
+    "nome":"Java",
+    "dataDeLançamento": 1995,
+    "criador": "James Gosling (Sun Microsystems)",
+    "link": "https://docs.oracle.com/en/java/"
+},
+{
+    "nome":"C#",
+    "dataDeLançamento": 2000,
+    "criador": "Microsoft",
+    "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/"
+},
+{
+    "nome":"Ruby",
+    "dataDeLançamento": 1995,
+    "criador": "Yukihiro Matsumoto",
+    "link": "https://www.ruby-lang.org/pt/"
+}
+]
