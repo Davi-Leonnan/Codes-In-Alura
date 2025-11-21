@@ -1,0 +1,26 @@
+[
+    {
+        "name": "JavaScript",
+        "releaseYear": 1995,
+        "creator": "Brendan Eich",
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+    },
+    {
+        "name": "Cascading Style Sheets (CSS)",
+        "releaseYear": 1996,
+        "creator": "World Wide Web Consortium (W3C)",
+        "link": "https://www.w3schools.com/cssref/index.php"
+    },
+    {
+        "name": "Python",
+        "releaseYear": 1991,
+        "creator": "Guido van Rossum",
+        "link": "https://docs.python.org/pt-br/3.14/"
+    },
+    {
+        "name": "Java",
+        "releaseYear": 1995,
+        "creator": "James Gosling",
+        "link": "https://docs.oracle.com/en/java/"
+    }
+]
