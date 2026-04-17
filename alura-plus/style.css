@@ -1,0 +1,119 @@
+/* root: Caixa de código utilizada para armazenar váriaveis que irão ser utilizadas em certas 
+propriedades do CSS. */
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #040814;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* "*": Define a margem e posição dos textos presentes na página web.*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Adicionando imagem de fundo */
+
+.principal {
+    background-image: url("imgs/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+/* "grid": Separa os elementos na página web por blocos de espaço. */
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+/* "text-decoration: none; (Retira o sublinhado presente no texo do link)
+" */
+
+.container__button {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+
+}
+
+.secondary__button {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+    margin-top: 10px;
+}
+
+.container__title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* O sistema de "margin" funciona igual a um relógio no sentido horário. (Da direita pra esquerda) */
+
+/*  Margins realmente criam espaço ao redor do elemento e paddings criam dentro dele, ou seja, o padding 
+afasta o conteúdo da borda e não um elemento do outro.  */
+
+.container__image {
+    margin: 1em 0 2em 0;
+}
+
+.container__box {
+    margin: 0 6em;
+}
+
+.secondary__image {
+    width: 65%;
+    margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 6em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.25em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secondary__button {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
